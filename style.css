@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F3F5FC;
+    width: 100%;
+    height: 100vh;
+}
+
+.logo {
+    position: absolute;
+    width: 28px;
+    height: 44px;
+    left: 40px;
+    top: 30px;
+}
+
+form {
+    position: absolute;
+    width: 700px;
+    height: 550px;
+    top: 50px;
+    left: 200px;
+}
+
+.text {
+    position: relative;
+    width: 340px;
+    height: 34px;
+    top: 60px;
+    left: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    color: #0A3871;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.text::placeholder {
+    color: #0A3871;
+}
+
+p img {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+form p {
+    position: relative;
+    width: 240px;
+    height: 24px;
+    left: 40px;
+    top: 390px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #495057;
+
+    opacity: 0.8;
+}
+
+.button_one {
+    position: relative;
+    width: 240px;
+    height: 50px;
+    top: 400px;
+    left: 40px;
+
+    font-size: 20px;
+    font-weight: inherit;
+    color: #D8DFE8;
+    background: #0A3871;
+    border-radius: 20px;
+    border: 1px solid #D8DFE8;
+}
+
+.botton_two {
+    position: relative;
+    width: 240px;
+    height: 50px;
+    top: 400px;
+    left: 60px;
+
+    font-size: 20px;
+    font-weight: inherit;
+    color: #0A3871;
+    background: #D8DFE8;
+    border-radius: 20px;
+    border: 1px solid #0A3871;
+}
+
+.rectangle {
+    position: absolute;
+    width: 300px;
+    height: 590px;
+    right: 80px;
+    top: 20px;
+
+    background: #FFFFFF;
+    border-radius: 32px;
+    align-items: center;
+}
+
+textarea {
+    border: 3px solid red;
+}
+
+.rectangle img {
+    position: relative;
+    width: 240px;
+    height: 220px;
+    top: 160px;
+
+    display: block;
+    margin: 0 auto;
+}
+
+.rectangle .title {
+    position: relative;
+    width: 240px;
+    top: 165px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+
+    margin: 0 auto;
+    text-align: center;
+    color: #343A40;
+}
+
+.rectangle .paragraph {
+    position: relative;
+    width: 240px;
+    top: 175px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+    margin: 0 auto;
+    text-align: center;
+    color: #495057;
+}
+
+#botton_copy {
+    position: relative;
+    width: 240px;
+    height: 50px;
+    top: 450px;
+
+    font-size: 20px;
+    text-align: center;
+    background: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 20px;
+    margin: 0 30px;
+}
+
+.hide {
+    display: none;
+}
