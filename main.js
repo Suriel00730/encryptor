@@ -5,8 +5,8 @@ const palabraO = "ober";
 const palabraU = "ufat";
 
 const button_one = document.querySelector(".button_one");
-const button_two = document.querySelector(".botton_two");
-const button_copy = document.querySelector("#botton_copy");
+const button_two = document.querySelector(".button_two");
+const button_copy = document.querySelector("#button_copy");
 
 const input_text = document.querySelector('#input_text');
 const output_text = document.querySelector('#output_text');
@@ -24,6 +24,7 @@ button_one.addEventListener("click", function (event) {
     input_text.value = "";
     rectangle_munieco.classList.add("hide");
     button_copy.classList.remove("hide");
+    output_text.classList.remove("hide");
 });
 
 button_two.addEventListener("click", function (event) {
@@ -41,6 +42,7 @@ button_two.addEventListener("click", function (event) {
     input_text.value = "";
     rectangle_munieco.classList.add("hide");
     button_copy.classList.remove("hide");
+    output_text.classList.remove("hide");
 });
 
 button_copy.addEventListener("click", function (event) {
