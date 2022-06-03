@@ -245,8 +245,6 @@ form p {
         width: 90%;
         height: 350px;
         margin: 0 5% 20px 5%;
-        /* margin-bottom: 40px; */
-        border: 1px solid red;
         border-radius: 20px;
     }
 
@@ -282,4 +280,23 @@ form p {
 }
 
 
-/* @media screen and (max-width: 768px) {} */
+@media screen and (max-width: 780px) {
+
+    form {
+        width: 600px;
+        height: 500px;
+        margin: 50px 90px 0 90px;
+        border: 1px solid red;
+    }
+
+    .form p {
+        border: 1px solid red;
+        top: 145px;
+        left: 40px;
+    }
+
+    .rectangle {
+        width: 280px;
+        height: 570px;
+    }
+}
